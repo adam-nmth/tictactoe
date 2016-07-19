@@ -1,0 +1,98 @@
+body{
+  background: #12203a;
+}
+.winner{
+  color: white;
+  margin-top: 40px;
+  font-family: 'Anton', sans-serif;
+  font-size: 25pt;
+}
+.popup{
+  z-index: 1;
+  background: rgba(24, 24, 38, 0.86);
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 25px 10px 25px 10px;
+  margin: 0px auto;
+}
+.popup h1{
+  color: white;
+  padding-top: 40px;
+  font-family: 'Anton', sans-serif;
+}
+.table{
+  position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+  z-index: -1;
+  background: white;
+  width: 600px;
+  height: 510px;
+  margin: 0px auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+.sides i{
+  color: white;
+  font-size: 20pt;
+  margin: 45px;
+  transition:color .2s ease-out, background 2s ease-in;
+}
+.sides i:hover{
+  color: rgba(139, 164, 218, 0.76);
+}
+.playground{
+  color: white;
+  font-size: 30pt;
+}
+.row{
+  width: 590px;
+  margin: 0px auto;
+  height: 150px;
+}
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 25%;
+    margin:1.66%;
+    background-color:#000;
+    overflow:hidden;
+  border-radius: 10px;
+  
+}
+
+.content {
+    position:absolute;
+    height:100%;
+    width:100%; 
+    padding: 15%;
+    
+}
+.tabe{
+    display:table;
+    width:100%;
+    height:100%;
+  font-size: 50pt;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+  
+}
+
+@keyframes mymove1 {
+    0%   {color: white;}
+    100% {color: red;}
+}
+
+@keyframes mymove2 {
+    0%   {color: white;}
+    100% {color: green;}
+}
